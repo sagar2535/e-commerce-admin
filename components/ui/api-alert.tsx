@@ -40,7 +40,7 @@ export const ApiAlert = ({
       </AlertTitle>
       <AlertDescription className='mt-4 flex items-center sm:flex-row sm:justify-between'>
         <div className='w-full sm:w-[50%] md:w-auto'>
-          <code className='relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold'>
+          <code className='relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono md:text-sm font-semibold text-xs'>
             {description}
           </code>
         </div>

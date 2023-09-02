@@ -13,7 +13,7 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 import Footer from './footer';
-import { Separator } from './ui/separator';
+import { Separator } from '@/components/ui/separator';
 
 export function Sidebar() {
   const pathName = usePathname();
